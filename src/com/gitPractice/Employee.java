@@ -57,4 +57,8 @@ public class Employee {
         System.out.println("Department : " + department);
         System.out.println("Salary     : ₹" + salary);
     }
+    public static void main(String[] args) {
+        Employee emp = new Employee(1001, "Rajesh", "IT", 75000.0);
+        emp.displayInfo();
+    }
 }
