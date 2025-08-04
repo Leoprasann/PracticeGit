@@ -7,13 +7,11 @@ public class Vasavi {
 	private String EmployeeAddress;
 	
 	public Integer getEmployeeId() {
-		
 		return EmployeeId;
 	}
 	public void setEmployeeId(Integer employeeId) {
 		EmployeeId = employeeId;
 	}
-
 	public String getEmployeeName() {
 		return EmployeeName;
 	}
@@ -26,11 +24,12 @@ public class Vasavi {
 	public void setEmployeeAddress(String employeeAddress) {
 		EmployeeAddress = employeeAddress;
 	}
-	
-	
 	@Override
 	public String toString() {
 		return "Vasavi [EmployeeId=" + EmployeeId + ", EmployeeName=" + EmployeeName + ", EmployeeAddress="
 				+ EmployeeAddress + "]";
 	}
+	
+	
+
 }
